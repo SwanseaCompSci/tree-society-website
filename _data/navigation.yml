@@ -13,13 +13,13 @@ en: &DEFAULT_EN
   nav:
     - title: "What we do"
       section: services
-    - title: "Portfolio"
+    - title: "Planting"
       section: portfolio
     - title: "About"
       section: about
-    - title: "Timeline"
+    - title: "Fundraising"
       section: timeline
-    - title: "Team"
+    - title: "Committee"
       section: team
     - title: "Contact"
       section: contact
