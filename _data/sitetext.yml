@@ -44,24 +44,18 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Movember"
+        desc: "A little paragraph to explain what events we did to raise money for this charity. Our members raised a total of £xxxx!"
+        image: assets/img/timeline/1.png
+        alt: "Movember"
+      - title: "Student Minds"
+        desc: "A little paragraph to explain what events we did to raise money for this charity. Our members raised a total of £xxxx!"
         image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        alt: "Student Minds"
+      - title: "British Red Cross"
+        desc: "A little paragraph to explain what events we did to raise money for this charity. Our members raised a total of £xxxx!"
         image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
+        alt: "British Red Cross"
     end: "And many <br> more to <br> come!"
 
   about:
