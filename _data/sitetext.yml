@@ -11,25 +11,25 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Hello and welcome to the
+    text: Swansea University Tree Society!
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "What we do"
+    text: "Here are just a few things we get up to..."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Meetups and socials"
+        desc: "Join us for cinema screenings, games night, pub quiz, beach clean and more! We aim to have at least one or two gatherings a month."
+        icon: fas fa-users
+      - title: "Tree planting"
+        desc: "We aim to plant a minimum of 1000 trees every semester at multiple sites in the Swansea area."
+        icon: fas fa-tree #find more at https://fontawesome.com/icons
+      - title: "Charity fundraising"
+        desc: "We organise fundraising events to help great charities such as Movember, Student Minds, British Red Cross and more."
+        icon: fas fa-hand-holding-heart
 
   portfolio:
     title: "Portfolio"
@@ -101,33 +101,12 @@ en: &DEFAULT_EN
       - name: "Kay Garland"
         role: "Lead Designer"
         image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
       - name: "Larry Parker"
         role: "Lead Marketer"
         image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
       - name: "Diana Perterson"
         role: "Lead Developer"
         image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
