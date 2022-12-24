@@ -67,28 +67,28 @@ en: &DEFAULT_EN
 
   clients:
     section: clients
-    max-height: 100px
+    max-height: 80px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "The Conservation Volunteers"
+        url: https://www.tcv.org.uk/
+        logo: assets/img/clients/tcv.png
+      - title: "Woodland Trust"
+        url: https://www.woodlandtrust.org.uk/
+        logo: assets/img/clients/woodlandtrust.png
+      - title: "Swansea University"
+        url: https://www.swansea.ac.uk/
+        logo: assets/img/clients/swanseauni.png
+      - title: "Swansea Students' Union"
+        url: https://www.swansea-union.co.uk/
+        logo: assets/img/clients/su.png
 
   team:
     title: "Committee Members"
     text: "The wonderful people who keep the society going"
     subtext: ""
     section: team
-    people: # todo: add override for theme default to center the 4th committee member on the new row
+    people:
       - name: "Jean-Louis Button"
         role: "President"
         image: assets/img/team/placeholder.jpg
