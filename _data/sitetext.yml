@@ -35,7 +35,7 @@ en: &DEFAULT_EN
     title: "Tree Planting"
     text: "🌲 Trees planted: 9080 (as of December 2022)" # this number will need to be updated manually for now
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
   timeline:
     title: "Fundraising"

@@ -10,6 +10,11 @@ caption:
 ---
 {:.table}
 {:.table-striped}
-|     Location           | Trees planted |
-| ---------------------- | ------------- |
-| **Total**              | **2150**      |
+|   Location     | Trees planted |
+| -------------- | ------------- |
+| Singleton Park | 60            |
+| Penllegaer     | 500           |
+| Llandridian    | 1140          |
+| Dunvant        | 2850          |
+| Gower          | 1670          |
+| **Total**      | **6220**      |
