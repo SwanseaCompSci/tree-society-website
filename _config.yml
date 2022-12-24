@@ -19,7 +19,7 @@ baseurl: "/tree-society" # the subpath of your site, e.g. /blog
 
 title      : Swansea University Tree Society
 email      : treesociety@swansea-societies.co.uk #this is also the email contact forms will go to
-description: "We're here for you, Mother Nature and all the creatures out there who need their homes protecting! We also put on lots of social events and charity nights for you all, so come check us out!"
+description: "Planting the right trees, in the right place, and at the right time since 2019."
 author     : Nathan Brenton
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
