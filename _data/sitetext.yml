@@ -45,17 +45,21 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Movember"
-        desc: "A little paragraph to explain what events we did to raise money for this charity. Our members raised a total of £xxxx!"
-        image: assets/img/timeline/1.png
+        desc: "We raised money for Movember by cycling for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of <strong>£2494!</strong>"
+        image: assets/img/timeline/movember.png
         alt: "Movember"
-      - title: "Student Minds"
-        desc: "A little paragraph to explain what events we did to raise money for this charity. Our members raised a total of £xxxx!"
-        image: assets/img/timeline/2.jpg
-        alt: "Student Minds"
-      - title: "British Red Cross"
-        desc: "A little paragraph to explain what events we did to raise money for this charity. Our members raised a total of £xxxx!"
-        image: assets/img/timeline/3.jpg
+      - title: "British Red Cross/UN Refugee Agency"
+        desc: "Through a collaborative bake sale with Swansea STAR and two pub quizzes, we raised a total of <strong>£1,118.91</strong> to help those displaced by the war in Ukraine."
+        image: assets/img/timeline/redcross.jpg
         alt: "British Red Cross"
+      - title: "Student Minds"
+        desc: "We held a pub quiz and bingo night in JC's alongside Swansea Uni Gardening Society to raise money for Student Minds, a UK-based student mental health charity. Together, we raised <strong>£184.52!</strong>"
+        image: assets/img/timeline/studentminds.jpg
+        alt: "Student Minds"
+      - title: "Swansea Food Bank"
+        desc: "We collected donations on our tree planting events, and held a sponsored cinema screening in order to support our local food banks. Together, we raised <strong>£119!</strong>"
+        image: assets/img/timeline/foodbank.jpg
+        alt: "Student Minds"
     end: "And many <br> more to <br> come!"
 
   about:
