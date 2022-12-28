@@ -31,6 +31,30 @@ en: &DEFAULT_EN
         desc: "We organise fundraising events to help great charities such as Movember, Student Minds, British Red Cross and more."
         icon: fas fa-hand-holding-heart
 
+  socials:
+    title: "Follow us on social media!"
+    text: "Keep up with the latest news and events on our social media pages"
+    section: socials
+    pages:
+      - name: Swansea SU
+        url: https://www.swansea-union.co.uk/activities/society/26348/
+        image: assets/img/socials/swanseauni.png
+      - name: Instagram
+        url: https://www.instagram.com/swanseauniversitytreesociety
+        image: assets/img/socials/instagram.png
+      - name: Facebook
+        url: https://www.facebook.com/SwanseaUniversityTreeSociety
+        image: assets/img/socials/facebook.png
+      - name: Twitter
+        url: https://twitter.com/TreeSwansea
+        image: assets/img/socials/twitter.png
+      - name: Buy Me A Coffee
+        url: https://www.buymeacoffee.com/SUTS
+        image: assets/img/socials/buymeacoffee.png
+      - name: JustGiving (coming soon!)
+        url:
+        image: assets/img/socials/justgiving.png
+
   portfolio:
     title: "Tree Planting"
     text: "🌲 Trees planted: 9080 (as of December 2022)" # this number will need to be updated manually for now
