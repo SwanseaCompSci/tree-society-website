@@ -15,6 +15,5 @@ caption:
 | Singleton Park | 60            |
 | Penllegaer     | 500           |
 | Llandridian    | 1140          |
-| Dunvant        | 2850          |
-| Gower          | 1670          |
-| **Total**      | **6220**      |
+| Dunvant        | 950           |
+| **Total**      | **2650**      |

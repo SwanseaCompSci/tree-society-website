@@ -16,7 +16,7 @@ en: &DEFAULT_EN
     button: Tell Me More
     buttonlink: "#services"
 
-  services:
+  services: # what we do
     title: "What we do"
     text: "Here are just a few things we get up to..."
     section: services
@@ -55,13 +55,13 @@ en: &DEFAULT_EN
         url:
         image: assets/img/socials/justgiving.png
 
-  portfolio:
+  portfolio: # tree planting
     title: "Tree Planting"
-    text: "🌲 Trees planted: 9080 (as of December 2022)" # this number will need to be updated manually for now
+    text: "🌲 Trees planted: 9580 (as of December 2022)" # this number will need to be updated manually for now
     section: portfolio
     closebutton: "Close"
 
-  timeline:
+  timeline: # charity fundraising
     title: "Fundraising"
     text: "A few of the great charities our society has raised money for"
     section: timeline
@@ -69,7 +69,7 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Movember"
-        desc: "We raised money for Movember by cycling for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of <strong>£2494!</strong>"
+        desc: "We raised money for Movember by cycling for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of <strong>£2,494!</strong>"
         image: assets/img/timeline/movember.png
         alt: "Movember"
       - title: "British Red Cross/UN Refugee Agency"
@@ -115,7 +115,7 @@ en: &DEFAULT_EN
         url: https://www.swansea-union.co.uk/
         logo: assets/img/clients/su.png
 
-  team:
+  team: # committee
     title: "Committee Members"
     text: "The wonderful people who keep the society going"
     subtext: ""
