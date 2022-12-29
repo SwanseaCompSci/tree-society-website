@@ -55,8 +55,10 @@ en: &DEFAULT_EN
         url:
         image: assets/img/socials/justgiving.png
     
+    # Facebook timeline (only rendered if a url is set)
     news-title: "Latest News"
     news-text: "See our latest posts from Facebook below"
+    news-fb-url: https://www.facebook.com/SwanseaUniversityTreeSociety
 
   portfolio: # tree planting
     title: "Tree Planting"
