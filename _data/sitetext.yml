@@ -36,7 +36,7 @@ en: &DEFAULT_EN
     text: "Keep up with the latest news and events on our social media pages"
     section: socials
     pages:
-      - name: Swansea SU
+      - name: Swansea SU (Sign up here!)
         url: https://www.swansea-union.co.uk/activities/society/26348/
         image: assets/img/socials/swanseauni.png
       - name: Instagram
@@ -54,6 +54,9 @@ en: &DEFAULT_EN
       - name: JustGiving (coming soon!)
         url:
         image: assets/img/socials/justgiving.png
+    
+    news-title: "Latest News"
+    news-text: "See our latest posts from Facebook below"
 
   portfolio: # tree planting
     title: "Tree Planting"
