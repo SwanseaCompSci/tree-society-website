@@ -107,7 +107,7 @@ en: &DEFAULT_EN
 
   clients:
     section: clients
-    max-height: 80px
+    max-height: 90px
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: "The Conservation Volunteers"
