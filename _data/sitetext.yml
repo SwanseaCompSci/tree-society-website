@@ -62,7 +62,6 @@ en: &DEFAULT_EN
 
   portfolio: # tree planting - each season modal is created from markdown files in /_portfolio/
     title: "Tree Planting"
-    text: "🌲 Trees planted: 9580 (as of December 2022)" 
     trees_planted_total: 9580 # these numbers will need to be updated manually for now
     trees_planted_this_year: 2650
     trees_goal: 1000
@@ -104,6 +103,26 @@ en: &DEFAULT_EN
     image: assets/img/tree-society.png
     body: "Our ethos is simple. We plant, we protect, and we have fun!<br><br>Doing our bit for the people & planet is where this idea of a tree society stemmed from. However, we also felt that giving back to local and international communities was also crucial; so we aim to raise as much funding and awareness for charities that our close to our hearts every semester.<br><br>We also host regular social events and collaborate with other societies and local groups in the area, so there is always something for everyone :)<br><br>If you'd like to join us then make sure to follow our Instagram and Facebook page so you can be updated with all of our events and socials throughout term time."
     section: about
+
+  helping:
+    title: "How can you help?"
+    text: "A few ways you can take part in protecting nature. Click the pictures for more information!"
+    list:
+      - title: "Ecosia"
+        url: https://www.ecosia.org
+        image: assets/img/helping/ecosia-logo.png
+        alt: "placeholder"
+        desc: "With the Ecosia search engine, you can plant trees while you search the web! Ecosia uses the profit we make from ad revenue on your searches to plant trees where they are needed most. You can set Ecosia as your default search engine on any mainstream web browser to start planting trees with your searches straight away with no sign-up required."
+      - title: "My Tree Our Forest"
+        url: https://www.woodlandtrust.org.uk/plant-trees/wales-tree-giveaway/
+        image: assets/img/helping/mytreeourforest.jpg
+        alt: "placeholder"
+        desc: "The My Tree, Our Forest tree giveaway is a partnership between the Welsh Government and Coed Cadw, the Woodland Trust in Wales. The scheme gives every household in Wales the opportunity to pick up a tree to plant, free of charge, have a tree posted to them, or have a tree planted on their behalf. To find out where you can pick up your free tree, please click the link in the picture!"
+      - title: "Woodland Trust"
+        url: https://www.woodlandtrust.org.uk/support-us/give/
+        image: assets/img/helping/woodlandtrust.jpg
+        alt: "placeholder"
+        desc: "The Woodland Trust do a fantastic job of protecting and restoring our forests, bringing landowners, decision-makers and ordinary people on side, and fighting needless destruction wherever it may threaten. There are many ways you can support them, either through a cash donation, buying your own trees and even dedicating patches of woodland for gifts or to remember a loved one."
 
   clients: # logos that show at the bottom of the page
     section: clients
