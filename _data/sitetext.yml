@@ -131,16 +131,16 @@ en: &DEFAULT_EN
     people:
       - name: "Jean-Louis Button"
         role: "President"
-        image: assets/img/team/placeholder.jpg
+        image: assets/img/team/JL.jpg
       - name: "Hal Szary"
         role: "Secretary"
-        image: assets/img/team/placeholder.jpg
+        image: assets/img/team/hal.jpg
       - name: "Rebecca Foster"
         role: "Social Secretary"
-        image: assets/img/team/placeholder.jpg
+        image: assets/img/team/rebecca.jpg
       - name: "Weronika Konarska"
         role: "Treasurer"
-        image: assets/img/team/placeholder.jpg
+        image: assets/img/team/weronika.jpg
 
   contact:
     title: "Contact Us"
