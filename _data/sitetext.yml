@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Hello and welcome to the
-    text: Swansea University Tree Society!
+    text: Swansea Uni Tree Society!
     button: Tell Me More
     buttonlink: "#services"
 
@@ -31,7 +31,7 @@ en: &DEFAULT_EN
         desc: "We organise fundraising events to help great charities such as Movember, Student Minds, British Red Cross and more."
         icon: fas fa-hand-holding-heart
 
-  socials:
+  socials: # social media links and facebook timeline
     title: "Follow us on social media!"
     text: "Keep up with the latest news and events on our social media pages"
     section: socials
@@ -60,7 +60,7 @@ en: &DEFAULT_EN
     news-text: "See our latest posts from Facebook below"
     news-fb-url: https://www.facebook.com/SwanseaUniversityTreeSociety
 
-  portfolio: # tree planting
+  portfolio: # tree planting - each season modal is created from markdown files in /_portfolio/
     title: "Tree Planting"
     text: "🌲 Trees planted: 9580 (as of December 2022)" 
     trees_planted_total: 9580 # these numbers will need to be updated manually for now
@@ -105,7 +105,7 @@ en: &DEFAULT_EN
     body: "Our ethos is simple. We plant, we protect, and we have fun!<br><br>Doing our bit for the people & planet is where this idea of a tree society stemmed from. However, we also felt that giving back to local and international communities was also crucial; so we aim to raise as much funding and awareness for charities that our close to our hearts every semester.<br><br>We also host regular social events and collaborate with other societies and local groups in the area, so there is always something for everyone :)<br><br>If you'd like to join us then make sure to follow our Instagram and Facebook page so you can be updated with all of our events and socials throughout term time."
     section: about
 
-  clients:
+  clients: # logos that show at the bottom of the page
     section: clients
     max-height: 90px
     horizontal-scrolling: "" #"yes/no"
