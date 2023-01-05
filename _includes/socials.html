@@ -8,14 +8,14 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].socials.text | default: "" }}</h3>
       </div>
     </div>
-    <div class="row">
+    <div class="row align-items-center">
       {% for page in site.data.sitetext[site.locale].socials.pages %}
       <div class="col-lg-3 col-6">
         <div class="socials-member">
           <a href="{{ page.url | default: # }}">
             <img class="mx-auto rounded-circle" src="{{ page.image | default: assets/img/team/placeholder.jpg }}"></img>
           </a>
-          <h5>{{ page.name }}</h4>
+          <h5 class="text-muted">{{ page.name }}</h4>
         </div>
       </div>
         {% endfor %}
