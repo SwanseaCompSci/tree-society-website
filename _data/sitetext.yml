@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Hello and welcome to the
-    text: Swansea Uni Tree Society!
+    text: Swansea University Tree Society!
     button: Tell Me More
     buttonlink: "#services"
 
