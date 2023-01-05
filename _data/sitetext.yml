@@ -12,11 +12,11 @@
 en: &DEFAULT_EN
   header:
     title: Hello and welcome to the
-    text: Swansea University Tree Society!
+    text: Swansea Uni Tree Society!
     button: Tell Me More
     buttonlink: "#services"
 
-  services:
+  services: # what we do
     title: "What we do"
     text: "Here are just a few things we get up to..."
     section: services
@@ -31,13 +31,38 @@ en: &DEFAULT_EN
         desc: "We organise fundraising events to help great charities such as Movember, Student Minds, British Red Cross and more."
         icon: fas fa-hand-holding-heart
 
-  portfolio:
-    title: "Tree Planting"
-    text: "🌲 Trees planted: 9080 (as of December 2022)" # this number will need to be updated manually for now
-    section: portfolio
-    closebutton: "Close Project"
+  socials: # social media links and facebook timeline
+    title: "Follow us on social media!"
+    text: "Keep up with the latest news and events on our social media pages"
+    section: socials
+    pages:
+      - name: Swansea SU (Sign up here!)
+        url: https://www.swansea-union.co.uk/activities/society/26348/
+        image: assets/img/socials/swanseauni.png
+      - name: Instagram
+        url: https://www.instagram.com/swanseauniversitytreesociety
+        image: assets/img/socials/instagram.png
+      - name: Facebook
+        url: https://www.facebook.com/SwanseaUniversityTreeSociety
+        image: assets/img/socials/facebook.png
+      - name: JustGiving (coming soon!)
+        url:
+        image: assets/img/socials/justgiving.png
+    
+    # Facebook timeline (only rendered if a url is set)
+    news-title: "Latest News"
+    news-text: "See our latest posts from Facebook below"
+    news-fb-url: https://www.facebook.com/SwanseaUniversityTreeSociety
 
-  timeline:
+  portfolio: # tree planting - each season modal is created from markdown files in /_portfolio/
+    title: "Tree Planting"
+    trees_planted_total: 9080 # these numbers will need to be updated manually for now
+    trees_planted_this_year: 2650
+    trees_goal: 1000
+    section: portfolio
+    closebutton: "Close"
+
+  timeline: # charity fundraising
     title: "Fundraising"
     text: "A few of the great charities our society has raised money for"
     section: timeline
@@ -45,62 +70,94 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Movember"
-        desc: "A little paragraph to explain what events we did to raise money for this charity. Our members raised a total of £xxxx!"
-        image: assets/img/timeline/1.png
+        desc: "We raised money for Movember by cycling for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of <strong>£2,494!</strong>"
+        image: assets/img/timeline/movember.png
         alt: "Movember"
-      - title: "Student Minds"
-        desc: "A little paragraph to explain what events we did to raise money for this charity. Our members raised a total of £xxxx!"
-        image: assets/img/timeline/2.jpg
-        alt: "Student Minds"
       - title: "British Red Cross"
-        desc: "A little paragraph to explain what events we did to raise money for this charity. Our members raised a total of £xxxx!"
-        image: assets/img/timeline/3.jpg
+        desc: "We held a bake sale and pub quiz to and raised <strong>£651.24</strong> for the British Red Cross, who help people in crisis, whoever and wherever they are."
+        image: assets/img/timeline/redcross.jpg
         alt: "British Red Cross"
+      - title: "UN Refugee Agency"
+        desc: "Through a collaborative bake sale with Swansea STAR and a pub quiz, we raised a total of <strong>£467.67</strong> to help those displaced by the war in Ukraine."
+        image: assets/img/timeline/UNHCR.png
+        alt: "UN Refugee Agency"
+      - title: "Size of Wales"
+        desc: "Size of Wales is a climate change charity working to create a future where forest communities can thrive alongside healthy tropical forests—to make Wales part of the climate solution, rather than part of the problem. We raised <strong>£133.05</strong> through an online collection for this charity."
+        image: assets/img/timeline/sizeofwales.jpg
+        alt: "Size of Wales"
+      - title: "Student Minds"
+        desc: "We held a pub quiz and bingo night in JC's alongside Swansea Uni Gardening Society and raised <strong>£184.52</strong> for Student Minds, a UK-based student mental health charity."
+        image: assets/img/timeline/studentminds.jpg
+        alt: "Student Minds"
+      - title: "Swansea Food Bank"
+        desc: "We collected donations on our tree planting events, and held a sponsored cinema screening in order to support our local food banks. Together, we raised <strong>£119!</strong>"
+        image: assets/img/timeline/foodbank.jpg
+        alt: "Swansea Food Bank"
     end: "And many <br> more to <br> come!"
 
   about:
     title: "About Us"
-    text: "We're here for you, Mother Nature and all the creatures out there who need their homes protecting!"
+    text: "Planting the right trees, in the right place, and at the right time since 2019."
     image: assets/img/tree-society.png
-    body: "If you'd like to join us then make sure to follow our Instagram/Facebook page so you can be updated with all of our events and socials throughout term time. We aim to have at least one or two gatherings a month (cinema screenings, games night, pub quiz, beach clean etc.) and also try to plant a minimum of 1,000 trees per semester!<br><br>Everything is free of charge for our members and all we ask in return is that you help us to spread the joy of tree planting and protecting our patches of nature here in Swansea.<br><br>We look forward to welcoming you soon at one of our events!"
+    body: "Our ethos is simple. We plant, we protect, and we have fun!<br><br>Doing our bit for the people & planet is where this idea of a tree society stemmed from. However, we also felt that giving back to local and international communities was also crucial; so we aim to raise as much funding and awareness for charities that our close to our hearts every semester.<br><br>We also host regular social events and collaborate with other societies and local groups in the area, so there is always something for everyone :)<br><br>If you'd like to join us then make sure to follow our Instagram and Facebook page so you can be updated with all of our events and socials throughout term time."
     section: about
 
-  clients:
+  helping:
+    title: "How can you help?"
+    text: "A few ways you can take part in protecting nature. Click the pictures for more information!"
+    list:
+      - title: "Ecosia"
+        url: https://www.ecosia.org
+        image: assets/img/helping/ecosia-logo.png
+        alt: "placeholder"
+        desc: "With the Ecosia search engine, you can plant trees while you search the web! Ecosia uses the profit we make from ad revenue on your searches to plant trees where they are needed most. You can set Ecosia as your default search engine on any mainstream web browser to start planting trees with your searches straight away with no sign-up required."
+      - title: "My Tree Our Forest"
+        url: https://www.woodlandtrust.org.uk/plant-trees/wales-tree-giveaway/
+        image: assets/img/helping/mytreeourforest.jpg
+        alt: "placeholder"
+        desc: "The My Tree, Our Forest tree giveaway is a partnership between the Welsh Government and Coed Cadw, the Woodland Trust in Wales. The scheme gives every household in Wales the opportunity to pick up a tree to plant, free of charge, have a tree posted to them, or have a tree planted on their behalf. To find out where you can pick up your free tree, please click the link in the picture!"
+      - title: "Woodland Trust"
+        url: https://www.woodlandtrust.org.uk/support-us/give/
+        image: assets/img/helping/woodlandtrust.jpg
+        alt: "placeholder"
+        desc: "The Woodland Trust do a fantastic job of protecting and restoring our forests, bringing landowners, decision-makers and ordinary people on side, and fighting needless destruction wherever it may threaten. There are many ways you can support them, either through a cash donation, buying your own trees and even dedicating patches of woodland for gifts or to remember a loved one."
+
+  clients: # logos that show at the bottom of the page
     section: clients
-    max-height: 100px
+    max-height: 90px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "The Conservation Volunteers"
+        url: https://www.tcv.org.uk/
+        logo: assets/img/clients/tcv.png
+      - title: "Woodland Trust"
+        url: https://www.woodlandtrust.org.uk/
+        logo: assets/img/clients/woodlandtrust.png
+      - title: "Swansea University"
+        url: https://www.swansea.ac.uk/
+        logo: assets/img/clients/swanseauni.png
+      - title: "Swansea Students' Union"
+        url: https://www.swansea-union.co.uk/
+        logo: assets/img/clients/su.png
 
-  team:
+  team: # committee
     title: "Committee Members"
     text: "The wonderful people who keep the society going"
     subtext: ""
     section: team
-    people: # todo: add override for theme default to center the 4th committee member on the new row
+    people:
       - name: "Jean-Louis Button"
         role: "President"
-        image: assets/img/team/placeholder.jpg
+        image: assets/img/team/JL.jpg
       - name: "Hal Szary"
         role: "Secretary"
-        image: assets/img/team/placeholder.jpg
+        image: assets/img/team/hal.jpg
       - name: "Rebecca Foster"
         role: "Social Secretary"
-        image: assets/img/team/placeholder.jpg
+        image: assets/img/team/rebecca.jpg
       - name: "Weronika Konarska"
         role: "Treasurer"
-        image: assets/img/team/placeholder.jpg
+        image: assets/img/team/weronika.jpg
 
   contact:
     title: "Contact Us"
@@ -126,10 +183,8 @@ en: &DEFAULT_EN
         icon: "fab fa-instagram"
       - url: https://www.facebook.com/SwanseaUniversityTreeSociety
         icon: "fab fa-facebook-f"
-      - url: https://twitter.com/TreeSwansea
-        icon: "fab fa-twitter"
-      - url: https://www.buymeacoffee.com/SUTS
-        icon: "fas fa-coffee"
+      - url: . # waiting for JustGiving link 
+        icon: "fas fa-hand-holding-heart"
 en-US:
   <<: *DEFAULT_EN
 en-CA:

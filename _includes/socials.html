@@ -1,0 +1,69 @@
+<!-- Socials -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].socials.section | default: "socials" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].socials.title | default: "Social Media" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].socials.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% for page in site.data.sitetext[site.locale].socials.pages %}
+      <div class="col-lg-3 col-6">
+        <div class="socials-member">
+          <a href="{{ page.url | default: # }}">
+            <img class="mx-auto rounded-circle" src="{{ page.image | default: assets/img/team/placeholder.jpg }}"></img>
+          </a>
+          <h5>{{ page.name }}</h4>
+        </div>
+      </div>
+        {% endfor %}
+    </div>
+    {% if site.data.sitetext[site.locale].socials.news-fb-url %}
+    <!-- Facebook timeline -->
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].socials.news-title | default: "Latest News" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].socials.news-text | default: "" }}</h3>
+        <div class="fb-page" data-href="{{ site.data.sitetext[site.locale].socials.news-fb-url }}" data-tabs="timeline" data-width="500" data-height="700" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="{{ site.data.sitetext[site.locale].socials.news-fb-url }}" class="fb-xfbml-parse-ignore"><a href="{{ site.data.sitetext[site.locale].socials.news-fb-url }}">Swansea University Tree Society</a></blockquote></div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.socials.section | default: "socials" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.socials.title | default: "Social Media" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.socials.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% for page in site.data.sitetext.socials.pages %}
+      <div class="col-lg-3 col-6">
+        <div class="socials-member">
+          <a href="{{ page.url | default: # }}">
+            <img class="mx-auto rounded-circle" src="{{ page.image | default: assets/img/team/placeholder.jpg }}"></img>
+          </a>
+          <h5>{{ page.name }}</h4>
+        </div>
+      </div>
+        {% endfor %}
+    </div>
+    {% if site.data.sitetext.socials.news-fb-url %}
+    <!-- Facebook timeline -->
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.socials.news-title | default: "Latest News" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.socials.news-text | default: "" }}</h3>
+        <div class="fb-page" data-href="{{ site.data.sitetext.socials.news-fb-url }}" data-tabs="timeline" data-width="500" data-height="700" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="{{ site.data.sitetext.socials.news-fb-url }}" class="fb-xfbml-parse-ignore"><a href="{{ site.data.sitetext.socials.news-fb-url }}">Swansea University Tree Society</a></blockquote></div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+<!-- End Socials -->
