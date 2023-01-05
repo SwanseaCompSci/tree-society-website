@@ -56,7 +56,7 @@ en: &DEFAULT_EN
 
   portfolio: # tree planting - each season modal is created from markdown files in /_portfolio/
     title: "Tree Planting"
-    trees_planted_total: 9580 # these numbers will need to be updated manually for now
+    trees_planted_total: 9080 # these numbers will need to be updated manually for now
     trees_planted_this_year: 2650
     trees_goal: 1000
     section: portfolio
@@ -73,10 +73,14 @@ en: &DEFAULT_EN
         desc: "We raised money for Movember by cycling for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of <strong>£2,494!</strong>"
         image: assets/img/timeline/movember.png
         alt: "Movember"
-      - title: "British Red Cross/UN Refugee Agency"
-        desc: "Through a collaborative bake sale with Swansea STAR and two pub quizzes, we raised a total of <strong>£1,118.91</strong> to help those displaced by the war in Ukraine."
+      - title: "British Red Cross"
+        desc: "We held a bake sale and pub quiz to and raised <strong>£651.24</strong> for the British Red Cross, who help people in crisis, whoever and wherever they are."
         image: assets/img/timeline/redcross.jpg
         alt: "British Red Cross"
+      - title: "UN Refugee Agency"
+        desc: "Through a collaborative bake sale with Swansea STAR and a pub quiz, we raised a total of <strong>£467.67</strong> to help those displaced by the war in Ukraine."
+        image: assets/img/timeline/UNHCR.png
+        alt: "UN Refugee Agency"
       - title: "Size of Wales"
         desc: "Size of Wales is a climate change charity working to create a future where forest communities can thrive alongside healthy tropical forests—to make Wales part of the climate solution, rather than part of the problem. We raised <strong>£133.05</strong> through an online collection for this charity."
         image: assets/img/timeline/sizeofwales.jpg
