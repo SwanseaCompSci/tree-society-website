@@ -45,12 +45,6 @@ en: &DEFAULT_EN
       - name: Facebook
         url: https://www.facebook.com/SwanseaUniversityTreeSociety
         image: assets/img/socials/facebook.png
-      - name: Twitter
-        url: https://twitter.com/TreeSwansea
-        image: assets/img/socials/twitter.png
-      - name: Buy Me A Coffee
-        url: https://www.buymeacoffee.com/SUTS
-        image: assets/img/socials/buymeacoffee.png
       - name: JustGiving (coming soon!)
         url:
         image: assets/img/socials/justgiving.png
@@ -185,10 +179,8 @@ en: &DEFAULT_EN
         icon: "fab fa-instagram"
       - url: https://www.facebook.com/SwanseaUniversityTreeSociety
         icon: "fab fa-facebook-f"
-      - url: https://twitter.com/TreeSwansea
-        icon: "fab fa-twitter"
-      - url: https://www.buymeacoffee.com/SUTS
-        icon: "fas fa-coffee"
+      - url: . # waiting for JustGiving link 
+        icon: "fas fa-hand-holding-heart"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
