@@ -39,9 +39,6 @@ en: &DEFAULT_EN
     text: "Keep up with the latest news and events on our social media pages"
     section: socials
     pages:
-      - name: Swansea SU (Sign up here!)
-        url: https://www.swansea-union.co.uk/activities/society/26348/
-        image: assets/img/socials/swanseauni.png
       - name: Instagram
         url: https://www.instagram.com/swanseauniversitytreesociety
         image: assets/img/socials/instagram.png
