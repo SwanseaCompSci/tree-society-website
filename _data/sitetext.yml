@@ -30,6 +30,9 @@ en: &DEFAULT_EN
       - title: "Charity fundraising"
         desc: "We organise fundraising events to help great charities such as Movember, Student Minds, British Red Cross and more."
         icon: fas fa-hand-holding-heart
+    join_button: 
+      text: "Sign up here!"
+      link: https://www.swansea-union.co.uk/activities/society/26348
 
   socials: # social media links and facebook timeline
     title: "Follow us on social media!"
