@@ -97,7 +97,7 @@ en: &DEFAULT_EN
         desc: "We collected donations on our tree planting events, and held a sponsored cinema screening in order to support our local food banks. Together, we raised **£119!**"
         image: assets/img/timeline/foodbank.jpg
         alt: "Swansea Food Bank"
-    end: "And many <br> more to <br> come!"
+    end: "And many <br> more!"
     total_funds_raised: 5000.43 # amount of funds raised in GBP
 
   about:
