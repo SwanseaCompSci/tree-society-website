@@ -12,7 +12,7 @@
       {% for page in site.data.sitetext[site.locale].socials.pages %}
       <div class="col-lg-4 col-6">
         <div class="socials-member">
-          <a href="{{ page.url | default: # }}">
+          <a href="{{ page.url | default: # }}" target="_blank" rel="noopener noreferrer">
             <img class="mx-auto rounded-circle" src="{{ page.image | default: assets/img/team/placeholder.jpg }}"></img>
           </a>
           <h5 class="text-muted">{{ page.name }}</h5>
