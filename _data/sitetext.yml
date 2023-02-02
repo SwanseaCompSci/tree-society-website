@@ -70,30 +70,35 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Movember"
-        desc: "We raised money for Movember by cycling for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of <strong>£2,494!</strong>"
+        desc: "We raised money for Movember by cycling for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of **£2,494!**"
         image: assets/img/timeline/movember.png
         alt: "Movember"
       - title: "British Red Cross"
-        desc: "We held a bake sale and pub quiz to and raised <strong>£651.24</strong> for the British Red Cross, who help people in crisis, whoever and wherever they are."
+        desc: "We held a bake sale and pub quiz to and raised **£651.24** for the British Red Cross, who help people in crisis, whoever and wherever they are."
         image: assets/img/timeline/redcross.jpg
         alt: "British Red Cross"
       - title: "UN Refugee Agency"
-        desc: "Through a collaborative bake sale with Swansea STAR and a pub quiz, we raised a total of <strong>£467.67</strong> to help those displaced by the war in Ukraine."
+        desc: "Through a collaborative bake sale with Swansea STAR and a pub quiz, we raised a total of **£467.67** to help those displaced by the war in Ukraine."
         image: assets/img/timeline/UNHCR.png
         alt: "UN Refugee Agency"
+      - title: "Zambia community group, Discovery SVS"
+        desc: "Money was raised for a community group that we volunteered with when the Swansea University's Discovery SVS team ran a 4 week trip to Zambia in 2019. We raised **£663.75!**"
+        image: assets/img/timeline/discovery.png
+        alt: "Zambia group"
       - title: "Size of Wales"
-        desc: "Size of Wales is a climate change charity working to create a future where forest communities can thrive alongside healthy tropical forests—to make Wales part of the climate solution, rather than part of the problem. We raised <strong>£233.05</strong> through an online collection for this charity."
+        desc: "Size of Wales is a climate change charity working to create a future where forest communities can thrive alongside healthy tropical forests—to make Wales part of the climate solution, rather than part of the problem. We raised **£233.05** through an online collection for this charity."
         image: assets/img/timeline/sizeofwales.jpg
         alt: "Size of Wales"
       - title: "Student Minds"
-        desc: "We held a pub quiz and bingo night in JC's alongside Swansea Uni Gardening Society and raised <strong>£184.52</strong> for Student Minds, a UK-based student mental health charity."
+        desc: "We held a pub quiz and bingo night in JC's alongside Swansea Uni Gardening Society and raised **£184.52** for Student Minds, a UK-based student mental health charity."
         image: assets/img/timeline/studentminds.jpg
         alt: "Student Minds"
       - title: "Swansea Food Bank"
-        desc: "We collected donations on our tree planting events, and held a sponsored cinema screening in order to support our local food banks. Together, we raised <strong>£119!</strong>"
+        desc: "We collected donations on our tree planting events, and held a sponsored cinema screening in order to support our local food banks. Together, we raised **£119!**"
         image: assets/img/timeline/foodbank.jpg
         alt: "Swansea Food Bank"
-    end: "And many <br> more to <br> come!"
+    end: "And many <br> more!"
+    total_funds_raised: 5000.43 # amount of funds raised in GBP
 
   about:
     title: "About Us"
