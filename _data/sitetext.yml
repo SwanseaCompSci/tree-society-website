@@ -30,15 +30,15 @@ en: &DEFAULT_EN
       - title: "Charity fundraising"
         desc: "We organise fundraising events to help great charities such as Movember, Student Minds, British Red Cross and more."
         icon: fas fa-hand-holding-heart
+    join_button: 
+      text: "Sign up here!"
+      link: https://www.swansea-union.co.uk/activities/society/26348
 
   socials: # social media links and facebook timeline
     title: "Follow us on social media!"
     text: "Keep up with the latest news and events on our social media pages"
     section: socials
     pages:
-      - name: Swansea SU (Sign up here!)
-        url: https://www.swansea-union.co.uk/activities/society/26348/
-        image: assets/img/socials/swanseauni.png
       - name: Instagram
         url: https://www.instagram.com/swanseauniversitytreesociety
         image: assets/img/socials/instagram.png
@@ -155,10 +155,10 @@ en: &DEFAULT_EN
         role: "President"
         image: assets/img/team/JL.jpg
       - name: "Hal Szary"
-        role: "Secretary"
+        role: "Vice President"
         image: assets/img/team/hal.jpg
       - name: "Rebecca Foster"
-        role: "Social Secretary"
+        role: "Secretary"
         image: assets/img/team/rebecca.jpg
       - name: "Weronika Konarska"
         role: "Treasurer"
