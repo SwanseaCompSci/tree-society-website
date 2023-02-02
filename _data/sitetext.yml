@@ -81,6 +81,10 @@ en: &DEFAULT_EN
         desc: "Through a collaborative bake sale with Swansea STAR and a pub quiz, we raised a total of <strong>£467.67</strong> to help those displaced by the war in Ukraine."
         image: assets/img/timeline/UNHCR.png
         alt: "UN Refugee Agency"
+      - title: "Zambia community group, Discovery SVS"
+        desc: "Money was raised for a community group that we volunteered with when the Swansea University's Discovery SVS team ran a 4 week trip to Zambia in 2019. We raised **£663.75!**"
+        image: assets/img/timeline/discovery.png
+        alt: "Zambia group"
       - title: "Size of Wales"
         desc: "Size of Wales is a climate change charity working to create a future where forest communities can thrive alongside healthy tropical forests—to make Wales part of the climate solution, rather than part of the problem. We raised <strong>£233.05</strong> through an online collection for this charity."
         image: assets/img/timeline/sizeofwales.jpg
@@ -94,6 +98,7 @@ en: &DEFAULT_EN
         image: assets/img/timeline/foodbank.jpg
         alt: "Swansea Food Bank"
     end: "And many <br> more to <br> come!"
+    total_funds_raised: 5000.43 # amount of funds raised in GBP
 
   about:
     title: "About Us"
