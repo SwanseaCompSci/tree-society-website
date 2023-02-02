@@ -11,12 +11,12 @@
     </div>
     {% for item in site.data.sitetext[site.locale].helping.list %}
     {% if forloop.index == 2 %}
-    <div class="row helping align-items-center text-right">
-      <div class="col-lg-6 order-md-2">
+    <div class="row helping align-items-center text-lg-right">
+      <div class="col-lg-6 order-lg-2 text-center">
         <a href="{{ item.url | default: assets/img/team/placeholder.jpg }}" target="_blank" rel="noopener noreferrer"><img src="{{ item.image }}" alt="{{ item.alt }}"></a>
       </div>
-      <div class="col-lg-6 order-md-1">
-        <h4>{{ forloop.index }}: {{ item.title }}</h4>
+      <div class="col-lg-6 order-lg-1">
+        <h4>{{ item.title }}</h4>
         <div class="text-muted">
           <p>{{ item.desc | markdownify }}</p>
         </div>
@@ -24,11 +24,11 @@
     </div>
     {% else %}
     <div class="row helping align-items-center">
-      <div class="col-lg-6 order-md-1">
+      <div class="col-lg-6 order-lg-1 text-center">
         <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer"><img src="{{ item.image }}" alt="{{ item.alt }}"></a>
       </div>
-      <div class="col-lg-6 order-md-2">
-        <h4>{{ forloop.index }}: {{ item.title }}</h4>
+      <div class="col-lg-6 order-lg-2">
+        <h4>{{ item.title }}</h4>
         <div class="text-muted">
           <p>{{ item.desc | markdownify }}</p>
         </div>
@@ -50,12 +50,12 @@
     </div>
     {% for item in site.data.sitetext.helping.list %}
     {% if forloop.index == 2 %}
-    <div class="row helping align-items-center text-right">
-      <div class="col-lg-6 order-md-2">
+    <div class="row helping align-items-center text-lg-right">
+      <div class="col-lg-6 order-lg-2 text-center">
         <a href="{{ item.url | default: assets/img/team/placeholder.jpg }}" target="_blank" rel="noopener noreferrer"><img src="{{ item.image }}" alt="{{ item.alt }}"></a>
       </div>
-      <div class="col-lg-6 order-md-1">
-        <h4>{{ forloop.index }}: {{ item.title }}</h4>
+      <div class="col-lg-6 order-lg-1">
+        <h4>{{ item.title }}</h4>
         <div class="text-muted">
           <p>{{ item.desc | markdownify }}</p>
         </div>
@@ -63,11 +63,11 @@
     </div>
     {% else %}
     <div class="row helping align-items-center">
-      <div class="col-lg-6 order-md-1">
+      <div class="col-lg-6 order-lg-1 text-center">
         <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer"><img src="{{ item.image }}" alt="{{ item.alt }}"></a>
       </div>
-      <div class="col-lg-6 order-md-2">
-        <h4>{{ forloop.index }}: {{ item.title }}</h4>
+      <div class="col-lg-6 order-lg-2">
+        <h4>{{ item.title }}</h4>
         <div class="text-muted">
           <p>{{ item.desc | markdownify }}</p>
         </div>
