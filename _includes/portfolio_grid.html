@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
 	{% for project in site.portfolio %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
@@ -74,7 +74,7 @@
         <h4>{{ site.data.sitetext.portfolio.trees_planted_this_year | times: 100 | divided_by: site.data.sitetext.portfolio.trees_goal }}%</h4>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-lg-12 goal-progress">
         <div class="progress">
           <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: {{ site.data.sitetext.portfolio.trees_planted_this_year | times: 100 | divided_by: site.data.sitetext.portfolio.trees_goal }}%" aria-valuenow="{{ site.data.sitetext.portfolio.trees_planted_this_year | times: 100 | divided_by: site.data.sitetext.portfolio.trees_goal }}" aria-valuemin="0" aria-valuemax="100"></div>
