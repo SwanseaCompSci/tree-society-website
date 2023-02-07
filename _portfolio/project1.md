@@ -16,4 +16,5 @@ caption:
 | Penllegaer     | 500           |
 | Llandridian    | 1140          |
 | Dunvant        | 950           |
-| **Total**      | **2650**      |
+| Cae Felin CSA  | 420           |
+| **Total**      | **3070**      |

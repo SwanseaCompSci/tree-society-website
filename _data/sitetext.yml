@@ -56,8 +56,8 @@ en: &DEFAULT_EN
 
   portfolio: # tree planting - each season modal is created from markdown files in /_portfolio/
     title: "Tree Planting"
-    trees_planted_total: 9080 # these numbers will need to be updated manually for now
-    trees_planted_this_year: 2650
+    trees_planted_total: 9500 # these numbers will need to be updated manually for now
+    trees_planted_this_year: 3070
     trees_goal: 1000
     section: portfolio
     closebutton: "Close"
@@ -94,11 +94,15 @@ en: &DEFAULT_EN
         image: assets/img/timeline/studentminds.jpg
         alt: "Student Minds"
       - title: "Swansea Food Bank"
-        desc: "We collected donations on our tree planting events, and held a sponsored cinema screening in order to support our local food banks. Together, we raised **£119!**"
+        desc: "We collected donations on our tree planting events, and held a sponsored cinema screening in order to support our local food banks. Together, we raised **£147!**"
         image: assets/img/timeline/foodbank.jpg
         alt: "Swansea Food Bank"
+      - title: "Royal Society for the Protection of Birds"
+        desc: "By holding a bake sale on campus with the Swansea SU's Environment Officer, we raised **£151.07** for the RSPB charity, who are helping to secure and protect a healthy environment for wildlife across the country."
+        image: assets/img/timeline/RSPB.png
+        alt: "RSPB"
     end: "And many <br> more!"
-    total_funds_raised: 5000.43 # amount of funds raised in GBP
+    total_funds_raised: 5179.50 # amount of funds raised in GBP
 
   about:
     title: "About Us"
