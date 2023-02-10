@@ -40,7 +40,7 @@ en: &DEFAULT_EN
     section: socials
     pages:
       - name: Instagram
-        url: https://www.instagram.com/swanseauniversitytreesociety
+        url: https://www.instagram.com/sutreesociety
         image: assets/img/socials/instagram.png
       - name: Facebook
         url: https://www.facebook.com/SwanseaUniversityTreeSociety
