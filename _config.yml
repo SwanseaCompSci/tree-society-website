@@ -41,3 +41,4 @@ formspree_form_path: "f/xpzeayno"
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
