@@ -45,9 +45,9 @@ en: &DEFAULT_EN
       - name: Facebook
         url: https://www.facebook.com/SwanseaUniversityTreeSociety
         image: assets/img/socials/facebook.png
-      - name: JustGiving (coming soon!)
-        url:
-        image: assets/img/socials/justgiving.png
+      - name: LocalGiving
+        url: https://localgiving.org/charity/sutreesociety
+        image: assets/img/socials/localgiving.png
     
     # Facebook timeline (only rendered if a url is set)
     news-title: "Latest News"
