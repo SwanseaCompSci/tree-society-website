@@ -14,16 +14,13 @@
 #theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/tree-society" # the subpath of your site, e.g. /blog
+url    : "https://www.sutreesociety.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Swansea University Tree Society
 email      : treesociety@swansea-societies.co.uk #this is also the email contact forms will go to
 description: "Planting the right trees, in the right place, and at the right time since 2019."
 author     : Nathan Brenton
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
