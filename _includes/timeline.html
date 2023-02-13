@@ -56,7 +56,10 @@
         </ul>
       </div>
       <div class="col-lg-12 text-center text-uppercase mt-4">
-        <h2 class="mt-4">💚 Total raised: <span class="text-primary">£{{ site.data.sitetext[site.locale].timeline.total_funds_raised }}</span></h2>
+        {% assign price_split = site.data.sitetext[site.locale].timeline.total_funds_raised | round: 2 | split: "." %}
+        {% assign integral = price_split[0] %}
+        {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+        <h2 class="mt-4">💚 Total raised: <span class="text-primary">£{{ integral }}.{{ fractional }}</span></h2>
       </div>
     </div>
   </div>
@@ -118,7 +121,10 @@
         </ul>
       </div>
       <div class="col-lg-12 text-center text-uppercase mt-4">
-        <h2 class="mt-4">💚 Total raised: <span class="text-primary">£{{ site.data.sitetext.timeline.total_funds_raised }}</span></h2>
+        {% assign price_split = site.data.sitetext.timeline.total_funds_raised | round: 2 | split: "." %}
+        {% assign integral = price_split[0] %}
+        {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+        <h2 class="mt-4">💚 Total raised: <span class="text-primary">£{{ integral }}.{{ fractional }}</span></h2>
       </div>
     </div>
   </div>
