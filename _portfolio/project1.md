@@ -17,4 +17,5 @@ caption:
 | Llandridian    | 1140          |
 | Dunvant        | 950           |
 | Cae Felin CSA  | 420           |
-| **Total**      | **3070**      |
+| Ashlands       | 350           |
+| **Total**      | **3420**      |

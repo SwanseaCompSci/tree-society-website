@@ -56,8 +56,8 @@ en: &DEFAULT_EN
 
   portfolio: # tree planting - each season modal is created from markdown files in /_portfolio/
     title: "Tree Planting"
-    trees_planted_total: 9500 # these numbers will need to be updated manually for now
-    trees_planted_this_year: 3070
+    trees_planted_total: 9850 # these numbers will need to be updated manually for now
+    trees_planted_this_year: 3420
     trees_goal: 1000
     section: portfolio
     closebutton: "Close"
