@@ -18,4 +18,5 @@ caption:
 | Dunvant        | 950           |
 | Cae Felin CSA  | 420           |
 | Ashlands       | 350           |
-| **Total**      | **3420**      |
+| Waunarlwydd    | 2000          |
+| **Total**      | **5420**      |
