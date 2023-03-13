@@ -19,4 +19,5 @@ caption:
 | Cae Felin CSA  | 420           |
 | Ashlands       | 350           |
 | Waunarlwydd    | 2000          |
-| **Total**      | **5420**      |
+| Ammanford      | 950           |
+| **Total**      | **6370**      |
