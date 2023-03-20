@@ -196,8 +196,8 @@ en: &DEFAULT_EN
         icon: "fab fa-instagram"
       - url: https://www.facebook.com/SwanseaUniversityTreeSociety
         icon: "fab fa-facebook-f"
-      - url: . # waiting for JustGiving link 
-        icon: "fas fa-hand-holding-heart"
+      - url: https://localgiving.org/charity/sutreesociety 
+        icon: "fas fa-hand-holding-heart" # giving page for the society
 en-US:
   <<: *DEFAULT_EN
 en-CA:
