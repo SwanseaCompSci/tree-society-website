@@ -102,11 +102,11 @@ en: &DEFAULT_EN
         image: assets/img/timeline/RSPB.png
         alt: "RSPB"
       - title: "Islamic Relief"
-        desc: "We held a charity pub quiz and raised **£546** for Islamic Relief UK, a Muslim charity helping with disaster relief in parts of the world such as Turkey, Syria, Pakistan and more."
+        desc: "We held a charity pub quiz alongside some other societies and raised **£1140** for Islamic Relief UK, a Muslim charity providing humanitarian aid for the devastating earthquake that affected Turkey and Syria in January 2023."
         image: assets/img/timeline/islamicrelief.png
         alt: "Islamic Relief"
     end: "And many <br> more!"
-    total_funds_raised: 5785.50 # amount of funds raised in GBP
+    total_funds_raised: 6415.00 # amount of funds raised in GBP
 
   about:
     title: "About Us"
