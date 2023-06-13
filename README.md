@@ -5,3 +5,6 @@ A generated static site for the Swansea University Tree Society, created in Jeky
 
 ## Licensing
 This website is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Contributing  
+Please refer to our contributing file for more information on how to contribute to this project. Requirements, guidelines and common issues are listed in there.  
