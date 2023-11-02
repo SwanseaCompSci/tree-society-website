@@ -106,7 +106,7 @@ en: &DEFAULT_EN
         image: assets/img/timeline/islamicrelief.png
         alt: "Islamic Relief"
       - title: "Muslim Aid"
-        desc: "We held a bakesale on campus with the Islamic and Pakistani societies and raised **£731.25** for Muslim Aid and their Palestine appeal, to help with the humanitarian crisis in Gaza"
+        desc: "We held a bakesale on campus with the Islamic and Pakistani societies and raised **£731.25** for Muslim Aid and their Palestine appeal, to help with the humanitarian crisis in Gaza."
         image: assets/img/timeline/muslimaid.png
         alt: "Muslim Aid"
     end: "And many <br> more!"
