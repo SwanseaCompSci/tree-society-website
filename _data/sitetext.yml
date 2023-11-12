@@ -110,7 +110,7 @@ en: &DEFAULT_EN
         image: assets/img/timeline/muslimaid.png
         alt: "Muslim Aid"
     end: "And many <br> more!"
-    total_funds_raised: 6415.00 # amount of funds raised in GBP
+    total_funds_raised: 7136.25 # amount of funds raised in GBP
 
   about:
     title: "About Us"
