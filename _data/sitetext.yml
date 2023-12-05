@@ -56,7 +56,7 @@ en: &DEFAULT_EN
 
   portfolio: # tree planting - each season modal is created from markdown files in /_portfolio/
     title: "Tree Planting"
-    trees_planted_total: 15420 # these numbers will need to be updated manually for now
+    trees_planted_total: 16512 # these numbers will need to be updated manually for now
     trees_planted_this_year: 0
     trees_goal: 1000
     section: portfolio
@@ -70,7 +70,7 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Movember"
-        desc: "We raised money for Movember by cycling for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of **£2,494!**"
+        desc: "We raised money for Movember by cycling for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of **£4,399!**"
         image: assets/img/timeline/movember.png
         alt: "Movember"
       - title: "British Red Cross"
@@ -94,7 +94,7 @@ en: &DEFAULT_EN
         image: assets/img/timeline/studentminds.jpg
         alt: "Student Minds"
       - title: "Swansea Food Bank"
-        desc: "We collected donations on our tree planting events, and held a sponsored cinema screening in order to support our local food banks. Together, we raised **£243!**"
+        desc: "We collected donations on our tree planting events, and held a sponsored cinema screening in order to support our local food banks. Together, we raised **£268!**"
         image: assets/img/timeline/foodbank.jpg
         alt: "Swansea Food Bank"
       - title: "Royal Society for the Protection of Birds"
@@ -102,7 +102,7 @@ en: &DEFAULT_EN
         image: assets/img/timeline/RSPB.png
         alt: "RSPB"
       - title: "Islamic Relief"
-        desc: "We held a charity pub quiz alongside some other societies and raised **£1140** for Islamic Relief UK, a Muslim charity providing humanitarian aid for the devastating earthquake that affected Turkey and Syria in January 2023."
+        desc: "We held a charity pub quiz alongside some other societies and raised **£1,140** for Islamic Relief UK, a Muslim charity providing humanitarian aid for the devastating earthquake that affected Turkey and Syria in January 2023."
         image: assets/img/timeline/islamicrelief.png
         alt: "Islamic Relief"
       - title: "Muslim Aid"
@@ -110,7 +110,7 @@ en: &DEFAULT_EN
         image: assets/img/timeline/muslimaid.png
         alt: "Muslim Aid"
     end: "And many <br> more!"
-    total_funds_raised: 7136.25 # amount of funds raised in GBP
+    total_funds_raised: 9076.75 # amount of funds raised in GBP
 
   about:
     title: "About Us"

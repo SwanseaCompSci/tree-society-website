@@ -14,12 +14,12 @@ caption:
 | --------------- | ------------- |
 | Singleton Park  | 60            |
 | Penllegaer      | 500           |
-| Llandridian     | 1140          |
+| Llandridian     | 1,140         |
 | Dunvant         | 950           |
 | Cae Felin CSA   | 420           |
 | Ashlands        | 350           |
-| Waunarlwydd     | 2000          |
+| Waunarlwydd     | 2,000         |
 | Ammanford       | 950           |
 | Norton Woodland | 200           |
-| Gower           | 2420          |
-| **Total**       | **8990**      |
+| Gower           | 3,512         |
+| **Total**       | **10,082**    |
