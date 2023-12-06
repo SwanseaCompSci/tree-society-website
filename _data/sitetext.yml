@@ -70,7 +70,7 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Movember"
-        desc: "We raised money for Movember by cycling for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of **£4,494!**"
+        desc: "We raised money for Movember by cycling and running for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of **£4,494!**"
         image: assets/img/timeline/movember.png
         alt: "Movember"
       - title: "British Red Cross"
