@@ -109,8 +109,12 @@ en: &DEFAULT_EN
         desc: "We held a bakesale on campus with the Islamic and Pakistani societies and raised **£731.25** for Muslim Aid and their Palestine appeal, to help with the humanitarian crisis in Gaza."
         image: assets/img/timeline/muslimaid.png
         alt: "Muslim Aid"
+      - title: "Salam Charity UK"
+        desc: "We raised **£86** for Salam Charity UK, to help those less fortunate than us"
+        image: assets/img/timeline/salam.png
+        alt: "Salam Charity UK"
     end: "And many <br> more!"
-    total_funds_raised: 9191.75 # amount of funds raised in GBP
+    total_funds_raised: 9277.75 # amount of funds raised in GBP
 
   about:
     title: "About Us"
