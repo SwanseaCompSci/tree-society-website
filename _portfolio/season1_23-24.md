@@ -10,7 +10,11 @@ caption:
 ---
 {:.table}
 {:.table-striped}
-|   Location      | Trees planted |
-| --------------- | ------------- |
-| Gower           | 1,092         |
-| **Total**       | **1,092**     |
+| Location                              | Trees planted |
+|---------------------------------------|---------------|
+| Gower                                 | 1,092         |
+| Singleton Campus                      | 12            |
+| One Planet Development, Gower         | 463           |
+| Nepal (Graduation Tree Planting 2024) | 651           |
+| Cherinton Woods                       | 433           |
+| **Total**                             | **2,651**     |
