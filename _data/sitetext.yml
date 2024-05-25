@@ -70,49 +70,60 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Movember"
-        desc: "We raised money for Movember by cycling and running for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too. Our members raised a total of **£4,514!**"
+        desc: "We raised money for Movember by cycling and running for 24 hours straight, climbing the height of Mt. Everest with a 20kg vest on, holding a pub quiz and bake sales on campus too."
         image: assets/img/timeline/movember.png
         alt: "Movember"
+        funds_raised: 4514.0  # GBP
       - title: "British Red Cross"
-        desc: "We held a bake sale and pub quiz to and raised **£651.24** for the British Red Cross, who help people in crisis, whoever and wherever they are."
+        desc: "We held a bake sale and pub quiz to and raised money for the British Red Cross, who help people in crisis, whoever and wherever they are."
         image: assets/img/timeline/redcross.jpg
         alt: "British Red Cross"
+        funds_raised: 651.24
       - title: "UN Refugee Agency"
-        desc: "Through a collaborative bake sale with Swansea STAR and a pub quiz, we raised a total of **£467.67** to help those displaced by the war in Ukraine."
+        desc: "Through a collaborative bake sale with Swansea STAR and a pub quiz, we raised funds to help those displaced by the war in Ukraine."
         image: assets/img/timeline/UNHCR.png
         alt: "UN Refugee Agency"
+        funds_raised: 467.67
       - title: "Zambia community group, Discovery SVS"
-        desc: "Money was raised for a community group that we volunteered with when the Swansea University's Discovery SVS team ran a 4 week trip to Zambia in 2019. We raised **£663.75!**"
+        desc: "Money was raised for a community group that we volunteered with when the Swansea University's Discovery SVS team ran a 4 week trip to Zambia in 2019.**"
         image: assets/img/timeline/discovery.png
         alt: "Zambia group"
+        funds_raised: 663.75
       - title: "Size of Wales"
-        desc: "Size of Wales is a climate change charity working to create a future where forest communities can thrive alongside healthy tropical forests—to make Wales part of the climate solution, rather than part of the problem. We raised **£233.05** through an online collection for this charity."
+        desc: "Size of Wales is a climate change charity working to create a future where forest communities can thrive alongside healthy tropical forests—to make Wales part of the climate solution, rather than part of the problem. We raised funds through an online collection for this charity."
         image: assets/img/timeline/sizeofwales.jpg
         alt: "Size of Wales"
+        funds_raised: 233.05
       - title: "Student Minds"
-        desc: "We held a pub quiz and bingo night in JC's alongside Swansea Uni Gardening Society and raised **£184.52** for Student Minds, a UK-based student mental health charity."
+        desc: "We held a pub quiz and bingo night in JC's alongside Swansea Uni Gardening Society and raised money for Student Minds, a UK-based student mental health charity."
         image: assets/img/timeline/studentminds.jpg
         alt: "Student Minds"
+        funds_raised: 184.52
       - title: "Swansea Food Bank"
-        desc: "We collected donations on our tree planting events, and held a sponsored cinema screening in order to support our local food banks. Together, we raised **£268!**"
+        desc: "We collected donations on our tree planting events, and held a sponsored cinema screening in order to support our local food banks."
         image: assets/img/timeline/foodbank.jpg
         alt: "Swansea Food Bank"
+        funds_raised: 268.0
       - title: "Royal Society for the Protection of Birds"
-        desc: "By holding a bake sale on campus with the Swansea SU's Environment Officer, we raised **£151.07** for the RSPB charity, who are helping to secure and protect a healthy environment for wildlife across the country."
+        desc: "By holding a bake sale on campus with the Swansea SU's Environment Officer, we raised money for the RSPB charity, who are helping to secure and protect a healthy environment for wildlife across the country."
         image: assets/img/timeline/RSPB.png
         alt: "RSPB"
+        funds_raised: 151.07
       - title: "Islamic Relief"
-        desc: "We held a charity pub quiz alongside some other societies and raised **£1,140** for Islamic Relief UK, a Muslim charity providing humanitarian aid for the devastating earthquake that affected Turkey and Syria in January 2023."
+        desc: "We held a charity pub quiz alongside some other societies and raised funds to donate to Islamic Relief UK, a Muslim charity providing humanitarian aid for the devastating earthquake that affected Turkey and Syria in January 2023."
         image: assets/img/timeline/islamicrelief.png
         alt: "Islamic Relief"
+        funds_raised: 1140.0
       - title: "Muslim Aid"
-        desc: "We held a bakesale on campus with the Islamic and Pakistani societies and raised **£731** for Muslim Aid and their Palestine appeal, to help with the humanitarian crisis in Gaza."
+        desc: "We held a bakesale on campus with the Islamic and Pakistani societies and raised money for Muslim Aid and their Palestine appeal, to help with the humanitarian crisis in Gaza."
         image: assets/img/timeline/muslimaid.png
         alt: "Muslim Aid"
+        funds_raised: 731.0
       - title: "Salam Charity UK"
-        desc: "Salam Charity UK works to help those less fortunate than us. To raise money, we held a charity banquet night and a sponsored 100km run whilst wearing a 20kg weighted vest, and raised **£11,684**!"
+        desc: "Salam Charity UK works to help those less fortunate than us. To raise money, we held a charity banquet night and a sponsored 100km run whilst wearing a 20kg weighted vest."
         image: assets/img/timeline/salam.png
         alt: "Salam Charity UK"
+        funds_raised: 11684.0
     end: "And many <br> more!"
     total_funds_raised: 20875.75 # amount of funds raised in GBP
 
