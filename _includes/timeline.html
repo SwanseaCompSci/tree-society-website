@@ -40,6 +40,10 @@
               </div>
               <div class="timeline-body">
                 <div class="text-muted">{{ event.desc | markdownify }}</div>
+                {% assign price_split = event.funds_raised | round: 2 | split: "." %}
+                {% assign integral = price_split[0] %}
+                {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+                <div class="text-muted font-weight-bold">Total raised: <span class="font-weight-bold">£{{ integral }}.{{ fractional }}</span></div>
               </div>
             </div>
           </li>
@@ -105,6 +109,10 @@
               </div>
               <div class="timeline-body">
                 <div class="text-muted">{{ event.desc | markdownify }}</div>
+                {% assign price_split = event.funds_raised | round: 2 | split: "." %}
+                {% assign integral = price_split[0] %}
+                {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+                <div class="text-muted font-weight-bold">Total raised: <span class="font-weight-bold">£{{ integral }}.{{ fractional }}</span></div>
               </div>
             </div>
           </li>
