@@ -10,11 +10,17 @@ caption:
 ---
 {:.table}
 {:.table-striped}
-| Location                              | Trees planted |
-|---------------------------------------|---------------|
-| Gower                                 | 1,092         |
-| Singleton Campus                      | 12            |
-| One Planet Development, Gower         | 463           |
-| Nepal (Graduation Tree Planting 2024) | 651           |
-| Cherinton Woods                       | 433           |
-| **Total**                             | **2,651**     |
+| Location                                            | Trees planted |
+|-----------------------------------------------------|---------------|
+| Gower                                               | 1,092         |
+| Singleton Campus                                    | 12            |
+| Neapl (Graduation Tree Planting 2024)               | 651           |
+| Cherinton Woods                                     | 433           |
+| One Planet Development, Gower                       | 463           |
+| Coed Lleol Townhill (Graduation Tree Planting 2024) | 750           |
+| Sketty Lane                                         | 7             |
+| Cae Felin                                           | 507           |
+| Blackhills CSA                                      | 1,195         |
+| Gower                                               | 2,350         |
+| Blackhills CSA + Gower                              | 1,440         |
+| **Total**                                           | **8,900**     |
