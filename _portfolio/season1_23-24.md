@@ -14,7 +14,7 @@ caption:
 |-----------------------------------------------------|---------------|
 | Gower                                               | 1,092         |
 | Singleton Campus                                    | 12            |
-| Nepal (Graduation Tree Planting 2024)               | 651           |
+| Neapl (Graduation Tree Planting 2024)               | 651           |
 | Cherinton Woods                                     | 433           |
 | One Planet Development, Gower                       | 463           |
 | Coed Lleol Townhill (Graduation Tree Planting 2024) | 750           |
